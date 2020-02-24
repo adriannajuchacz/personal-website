@@ -150,7 +150,7 @@ body:after {
 .hover-bg-enlarge {
   overflow: hidden;
   position: relative; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1050px) {
     .hover-bg-enlarge {
       height: auto !important; } }
   .hover-bg-enlarge > div {
@@ -164,7 +164,7 @@ body:after {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1050px) {
     .hover-bg-enlarge .bg-image-md-height {
       height: 300px !important; } }
 
@@ -189,11 +189,11 @@ body:after {
     position: relative;
     z-index: 1; }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1050px) {
   .img-md-fluid {
     max-width: 100%; } }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1050px) {
   .display-1, .display-3 {
     font-size: 3rem; } }
 
@@ -579,7 +579,7 @@ body:after {
       top: 0;
       z-index: 2;
       background: rgba(255, 255, 255, 0); }
-      @media (max-width: 991.98px) {
+      @media (max-width: 1050px) {
         .site-blocks-cover.overlay:before {
           background: rgba(255, 255, 255, 0.5); } }
   .site-blocks-cover, .site-blocks-cover > .container, .site-blocks-cover > .container > .row {
@@ -593,13 +593,14 @@ body:after {
     font-family: "Arbutus Slab", serif; }
   .site-blocks-cover .img-face {
     position: absolute;
-    right: -5%;
+    right: 0;
     bottom: 0;
     z-index: 1;
-    max-width: 950px; }
-    @media (max-width: 991.98px) {
+    height: 100%;
+    min-width: 100vw;}
+    @media (max-width: 1050px) {
       .site-blocks-cover .img-face {
-        right: -25%; } }
+        right: -50%; } }
 
 .section-title {
   position: relative;

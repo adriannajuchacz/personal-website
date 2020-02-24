@@ -1520,7 +1520,7 @@ pre {
     .table-responsive-md > .table-bordered {
       border: 0; } }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1050px) {
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -3458,7 +3458,7 @@ input[type="button"].btn-block {
     .navbar-expand-md .navbar-toggler {
       display: none; } }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1050px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
