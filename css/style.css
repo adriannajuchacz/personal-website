@@ -592,6 +592,10 @@ body:after {
     font-size: 3rem;
     font-family: "Arbutus Slab", serif; }
   .site-blocks-cover .img-face {
+    background: url("../images/face.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -600,7 +604,7 @@ body:after {
     min-width: 100vw;}
     @media (max-width: 1050px) {
       .site-blocks-cover .img-face {
-        right: -50%; } }
+        right: 0%; } }
 
 .section-title {
   position: relative;
@@ -874,4 +878,8 @@ body:after {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+.company-logo {
+  width: 100% !important;
+  height: auto;
 }
