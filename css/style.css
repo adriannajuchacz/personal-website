@@ -733,7 +733,8 @@ body:after {
       transition: .3s all ease-in-out; }
   .item .item-wrap {
     display: block;
-    position: relative; }
+    position: relative;
+    border-radius: 25px; }
     .item .item-wrap:after {
       z-index: 2;
       position: absolute;
@@ -757,7 +758,7 @@ body:after {
       -ms-transform: translate(-50%, -50%) scale(0);
       transform: translate(-50%, -50%) scale(0);
       color: #fff;
-      font-size: 1.7rem;
+      font-size: 2.5rem;
       opacity: 0;
       visibility: hidden;
       -webkit-transition: .3s all ease;
@@ -774,9 +775,9 @@ body:after {
       -ms-transform: translate(-50%, -50%) scale(1);
       transform: translate(-50%, -50%) scale(1); }
   .item:hover a img {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
     -webkit-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out; }
