@@ -594,7 +594,7 @@ body:after {
   .site-blocks-cover .img-face {
     background: url("../images/face.jpg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     background-size: cover;
     position: absolute;
     right: 0;
