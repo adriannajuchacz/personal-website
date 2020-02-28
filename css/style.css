@@ -592,7 +592,7 @@ body:after {
     font-size: 3rem;
     font-family: "Arbutus Slab", serif; }
   .site-blocks-cover .img-face {
-    background: url("../images/face.jpg");
+    background: url("../images/face-low.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
