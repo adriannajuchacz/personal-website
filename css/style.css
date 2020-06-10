@@ -888,3 +888,9 @@ body:after {
   font-size: 1.5rem;
   margin-right: 10px;
 }
+header {
+    position: fixed !important;
+}
+.past-home {
+    background: white !important;
+}
